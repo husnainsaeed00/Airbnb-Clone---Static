@@ -10,7 +10,7 @@ const Data=[
             revcount:40
         },
         location:'Online',
-        openspots:20,
+        openspots:0,
     },
     {
         id:2,
@@ -23,7 +23,7 @@ const Data=[
             revcount:40
         },
         location:'Online',
-        openspots:20,
+        openspots:0,
     },
     {
         id:2,
