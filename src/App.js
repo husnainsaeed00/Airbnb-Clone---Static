@@ -8,16 +8,10 @@ function App() {
   const cards = Data.map(item => (
     <Card
       key={item.id} // Add a unique key to each card for React to efficiently track them
-      img={item.coverImg}
-      rating={item.stats.rating}
-      revcount={item.stats.revcount}
-      country={item.location}
-      title={item.title}
-      price={item.price}
-      openSpots={item.openspots}
+      item={item}
 
     />
-  ));
+  )); 
 
   return (
     <div>
